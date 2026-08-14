@@ -1,0 +1,8 @@
+CrawlerYTGabriel/
+data/
+*.ods
+/topic_analysis_gravidez_results_api
+/topic_analysis_gravidez_results_two_steps_api
+.vscode/
+.env
+server/
