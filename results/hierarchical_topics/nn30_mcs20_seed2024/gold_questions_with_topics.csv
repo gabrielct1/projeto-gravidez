@@ -1,0 +1,99 @@
+pergunta,hdbscan_topic_id,topic_id,assignment_method,score,topic_name
+Como ter certeza que estou grávida?,-1,35,Topic embedding mais próximo,0.9635077714920044,35_estar_menstruação_menstruado_tendo
+Quando devo começar as visitas ao pré-natal?,-1,23,Topic embedding mais próximo,0.9316308498382568,23_quantos_meses_semanas_idade
+Onde posso fazer o pré-natal?,12,12,HDBSCAN transform,0.30224679996324616,12_ultrassom_natal_ultrassonografia_saco
+Quantas consultas de pré-natal será bom para mim e para meu bebê?,12,12,HDBSCAN transform,0.41808519734163707,12_ultrassom_natal_ultrassonografia_saco
+O que devo fazer se eu me sentir mal antes da data da próxima consulta?,-1,92,Topic embedding mais próximo,0.944779634475708,92_hospital_médico_tomou_consulta
+Quanto tempo dura a gravidez?,23,23,HDBSCAN transform,0.529625790664489,23_quantos_meses_semanas_idade
+O que é parto prematuro?,-1,66,Topic embedding mais próximo,0.9546754360198975,66_prematuro_nasceu_quantas_semanas
+Como vou contar o tempo de gravidez: meses ou semanas?,23,23,HDBSCAN transform,1.0,23_quantos_meses_semanas_idade
+A gravidez pode durar mais do que 9 meses?,23,23,HDBSCAN transform,1.0,23_quantos_meses_semanas_idade
+O que é data provável para o parto?,-1,23,Topic embedding mais próximo,0.9691599011421204,23_quantos_meses_semanas_idade
+Ter infecção de urina aumenta a chance de parto prematuro?,-1,151,Topic embedding mais próximo,0.9263734817504883,151_semanas_39_entrar_40
+Posso tomar os remédios que já tenho costume de usar quando sinto dor?,92,92,HDBSCAN transform,0.9477276560962623,92_hospital_médico_tomou_consulta
+O que posso fazer para evitar o parto prematuro?,-1,110,Topic embedding mais próximo,0.952783465385437,110_contexto_gestação_segunda_evoluiu
+Estou sentindo contrações antes do nono mês. É normal?,-1,60,Topic embedding mais próximo,0.9576691389083862,60_barriga_kg_dura_crescer
+A partir de quando posso saber o sexo do bebê durante a gravidez?,31,31,HDBSCAN transform,0.4882997879481228,31_sexo_menino_saber_menina
+Tem como saber o peso do bebê dentro do útero?,-1,148,Topic embedding mais próximo,0.952276349067688,148_percentil_semanas_34_gestação
+A partir de quando o embrião aparece dentro do meu útero?,-1,12,Topic embedding mais próximo,0.9496683478355408,12_ultrassom_natal_ultrassonografia_saco
+A partir de quando o feto se forma?,-1,24,Topic embedding mais próximo,0.9536359310150146,24_embrião_feto_vida_considerado
+A partir de quando o bebê começa a mexer dentro do útero?,94,94,HDBSCAN transform,0.6835799579575272,94_mexer_sentir_movimentos_17
+Quando posso ouvir o batimento do coração do bebê dentro do útero?,98,98,HDBSCAN transform,1.0,98_coração_ouvir_batimentos_doppler
+Quando o coração do bebê começa a bater,-1,88,Topic embedding mais próximo,0.9469202160835266,88_barriga_distensão_falar_grande
+A partir de quando o bebê dentro do útero pode ouvir a minha voz?,20,20,HDBSCAN transform,0.41710258340219136,20_dentro_cordão_umbilical_útero
+Posso pintar o cabelo durante a gravidez?,96,96,HDBSCAN transform,0.5380631572780783,96_estrias_óleo_melasma_cicatricure
+Quantos quilos é esperado ganhar na gestação?,60,60,HDBSCAN transform,0.41031440970277644,60_barriga_kg_dura_crescer
+Ter um pouco de dor na barriga é normal?,-1,65,Topic embedding mais próximo,0.9268901944160461,65_barriga_falsa_mostrada_mentira
+Ter cólica na barriga pode ser um problema?,-1,116,Topic embedding mais próximo,0.9412753582000732,116_sintomas_esses_indicar_podem
+"Posso tomar os remédios que já usava antes, durante a gestação?",-1,99,Topic embedding mais próximo,0.97202467918396,99_descobrir_remédios_prejudicar_tomar
+"É normal sair um líquido amarelado pelo seio, durante a gravidez?",-1,139,Topic embedding mais próximo,0.9580618739128113,139_seios_nos_dor_sentiu
+"Como preparar o seio para a amamentação, durante a gravidez?",-1,17,Topic embedding mais próximo,0.9532201290130615,17_amamentar_amamentação_peito_bico
+É normal inchar as pernas durante a gravidez?,-1,60,Topic embedding mais próximo,0.9602063894271851,60_barriga_kg_dura_crescer
+Minhas pernas estão inchadas. Preciso ingerir menos sal na alimentação?,-1,92,Topic embedding mais próximo,0.8763524889945984,92_hospital_médico_tomou_consulta
+"Quanto de sal posso usar nos alimentos, durante a gravidez?",-1,134,Topic embedding mais próximo,0.9598444700241089,134_alimentação_fome_alimentos_durante
+"Quanto mais azia, mais cabelo o bebê vai ter?",153,153,HDBSCAN transform,1.0,153_cabelo_crescer_materno_crescimento
+Posso ir ao dentista durante a gestação?,-1,134,Topic embedding mais próximo,0.9056110978126526,134_alimentação_fome_alimentos_durante
+Preciso depilar a virilha para ir às consultas de pré-natal?,-1,96,Topic embedding mais próximo,0.9295401573181152,96_estrias_óleo_melasma_cicatricure
+Preciso depilar a virilha para o parto?,-1,115,Topic embedding mais próximo,0.9388327598571777,115_experiência_natural_parto_você
+Posso tomar anestesia local para tratar de dentes durante a gravidez?,-1,99,Topic embedding mais próximo,0.9087275862693787,99_descobrir_remédios_prejudicar_tomar
+Sangramento na vagina durante a gravidez é normal?,62,62,HDBSCAN transform,1.0,62_sangramento_marrom_borra_início
+O movimento do bebê dentro do útero é porque ele está incomodado?,-1,94,Topic embedding mais próximo,0.9669884443283081,94_mexer_sentir_movimentos_17
+O bebê parou de mexer dentro do útero. Isto acontece porque ele está com problemas?,20,20,HDBSCAN transform,0.5166987697543524,20_dentro_cordão_umbilical_útero
+Durante a gestação posso fazer sexo?,-1,22,Topic embedding mais próximo,0.9498921632766724,22_grávida_você_está_verdade
+É normal ficar com menos vontade de fazer sexo?,100,100,HDBSCAN transform,1.0,100_sexuais_relações_sexual_relação
+Quando preciso parar de fazer sexo na gravidez?,-1,110,Topic embedding mais próximo,0.9545359015464783,110_contexto_gestação_segunda_evoluiu
+Posso dormir de barriga pra cima?,121,121,HDBSCAN transform,0.9085182707053048,121_lado_dormir_esquerdo_cima
+Qual a melhor posição pra dormir?,-1,100,Topic embedding mais próximo,0.9108932018280029,100_sexuais_relações_sexual_relação
+Porque fumar cigarro na gestação é perigoso?,-1,41,Topic embedding mais próximo,0.9342758655548096,41_chá_gestantes_tomar_consumir
+Posso beber nos finais de semana?,11,11,HDBSCAN transform,0.3995030546748045,11_isso_nesse_caso_luvas
+A grávida precisa tomar vitaminas?,70,70,HDBSCAN transform,0.9608596915933982,70_suplemento_vitamina_suplementos_vitaminas
+Posso tomar refrigerantes na gravidez?,41,41,HDBSCAN transform,0.4490807997807239,41_chá_gestantes_tomar_consumir
+Como comer de forma saudável na gravidez?,134,134,HDBSCAN transform,1.0,134_alimentação_fome_alimentos_durante
+É proibido fazer exame de prevenção do câncer do útero na gravidez?,12,12,HDBSCAN transform,0.37184804791497267,12_ultrassom_natal_ultrassonografia_saco
+"Já tive uma cesárea, posso ter parto normal na próxima gestação?",72,72,HDBSCAN transform,0.9163715447422665,72_cesárea_próxima_cesáreas_tentar
+Minha gengiva está sangrando quando escovo os dentes. O que fazer?,-1,92,Topic embedding mais próximo,0.856411874294281,92_hospital_médico_tomou_consulta
+Estou salivando muito e meu apetite mudou. É por causa da gravidez?,-1,40,Topic embedding mais próximo,0.9513692259788513,40_sentir_enjoos_enjoo_normal
+Como evitar que meu rosto fique manchado por causa da gravidez?,96,96,HDBSCAN transform,0.547566794598936,96_estrias_óleo_melasma_cicatricure
+O que fazer para não engordar muito na gestação?,-1,134,Topic embedding mais próximo,0.9692155122756958,134_alimentação_fome_alimentos_durante
+Posso andar de moto na gravidez?,-1,110,Topic embedding mais próximo,0.9062878489494324,110_contexto_gestação_segunda_evoluiu
+Como usar o cinto de segurança na gravidez?,-1,110,Topic embedding mais próximo,0.9384382367134094,110_contexto_gestação_segunda_evoluiu
+O formato da barriga indica o sexo do bebê?,31,31,HDBSCAN transform,0.5624817423343326,31_sexo_menino_saber_menina
+Posso passar creme hidratante nas mamas?,-1,17,Topic embedding mais próximo,0.9204850196838379,17_amamentar_amamentação_peito_bico
+"Como posso me proteger do mosquito da dengue, zika e chikungunya?",16,16,HDBSCAN transform,0.6001877577605955,16_vacina_bronquiolite_contra_abrysvo
+Cremes e óleos na pele evitam estrias na gravidez?,96,96,HDBSCAN transform,0.7836286445981978,96_estrias_óleo_melasma_cicatricure
+Tomar sol no seio ajuda na amamentação?,17,17,HDBSCAN transform,0.7220945267055369,17_amamentar_amamentação_peito_bico
+Quando devo tomar sol nos seios?,-1,100,Topic embedding mais próximo,0.901939868927002,100_sexuais_relações_sexual_relação
+Estou sentido contrações e já estou no nono mês. O que fazer?,-1,110,Topic embedding mais próximo,0.9599215984344482,110_contexto_gestação_segunda_evoluiu
+Tenho sentido dores na barriga e intestino preso,-1,92,Topic embedding mais próximo,0.9042500853538513,92_hospital_médico_tomou_consulta
+Está escorrendo um líquido pela vagina e pernas. É normal?,9,9,HDBSCAN transform,0.570527057921619,9_menstruação_menstruar_menstrual_descer
+Estou perdendo sangue pela vagina,138,138,HDBSCAN transform,1.0,138_sangramento_vermelho_vivo_apareceu
+Em qual maternidade meu bebê vai nascer?,5,5,HDBSCAN transform,0.3191331895444685,5_nascer_fevereiro_dia_vai
+Como posso ter alívio da dor durante o parto?,36,36,HDBSCAN transform,0.7750586088776921,36_dor_analgesia_parto_mulheres
+O que é o Plano de Parto?,-1,27,Topic embedding mais próximo,0.9382795095443726,27_parto_posição_durante_deitada
+Qual é a melhor posição no parto?,27,27,HDBSCAN transform,1.0,27_parto_posição_durante_deitada
+Posso convidar alguém para ficar sempre do meu lado no parto?,-1,27,Topic embedding mais próximo,0.9460427165031433,27_parto_posição_durante_deitada
+O que é episiotomia?,146,146,HDBSCAN transform,1.0,146_episiotomia_laceração_evitar_humanizado
+O tamanho do meu bebê influencia na chance de ter ou não um parto normal?,-1,63,Topic embedding mais próximo,0.9494365453720093,63_dilatação_cm_colo_trabalho
+Preciso levar o cartão de pré-natal no dia do parto?,56,56,HDBSCAN transform,0.17735783400956887,56_mala_levar_roupa_roupas
+Como guardar o meu leite na geladeira?,-1,118,Topic embedding mais próximo,0.926232099533081,118_materno_leite_oferecer_paterno
+Qual é a melhor posição para amamentar meu bebê?,17,17,HDBSCAN transform,0.7609368111073849,17_amamentar_amamentação_peito_bico
+É normal continuar com sangramento na vagina alguns dias depois do parto?,71,71,HDBSCAN transform,1.0,71_pós_após_hemorragia_parto
+Quando posso recomeçar a fazer sexo após o parto?,71,71,HDBSCAN transform,1.0,71_pós_após_hemorragia_parto
+Por quanto tempo é bom amamentar?,17,17,HDBSCAN transform,1.0,17_amamentar_amamentação_peito_bico
+O meu leite é fraco?,-1,118,Topic embedding mais próximo,0.9368207454681396,118_materno_leite_oferecer_paterno
+O que posso fazer para aumentar o leite?,37,37,HDBSCAN transform,0.4631622071176649,37_produção_materno_leite_aumentar
+Posso voltar a tomar a mesma pílula que eu usava antes de engravidar?,1,1,HDBSCAN transform,1.0,1_anticoncepcional_pílula_seguinte_tomar
+O que é Teste do Pezinho?,-1,21,Topic embedding mais próximo,0.9149484634399414,21_doença_rosto_tem_bochechinha
+O que é Teste do Olhinho?,-1,155,Topic embedding mais próximo,0.9012625217437744,155_reflexo_vermelho_olho_preto
+O que é Teste da Orelhinha?,-1,11,Topic embedding mais próximo,0.8829110860824585,11_isso_nesse_caso_luvas
+Quando eu devo consultar após o parto?,-1,51,Topic embedding mais próximo,0.9625539779663086,51_tudo_certo_parto_deu
+Quando devo me preocupar com o sangramento pós-parto (lóquio)?,71,71,HDBSCAN transform,1.0,71_pós_após_hemorragia_parto
+Por quanto tempo meu leite pode ficar guardado?,118,118,HDBSCAN transform,1.0,118_materno_leite_oferecer_paterno
+O que fazer se minhas mamas ficarem endurecidas ou empedradas com o leite?,-1,17,Topic embedding mais próximo,0.9606236815452576,17_amamentar_amamentação_peito_bico
+Após o parto posso tomar banho normalmente?,-1,71,Topic embedding mais próximo,0.9601725339889526,71_pós_após_hemorragia_parto
+Quais são os cuidado com os pontos da cesariana?,13,13,HDBSCAN transform,0.3517295547142026,13_cesárea_cicatriz_seroma_após
+Quando vou retirar os pontos foram dados no parto?,-1,71,Topic embedding mais próximo,0.951472282409668,71_pós_após_hemorragia_parto
+Pode sair algum tipo de secreção da região dos pontos? Quando devo me preocupar?,-1,114,Topic embedding mais próximo,0.8584327697753906,114_urinária_pélvica_fisioterapia_vagina
+Preciso de corte na vagina para o meu bebe nascer?,19,19,HDBSCAN transform,0.8591117148440954,19_cesárea_cesariana_indicações_parto
+"Se eu não tiver força pra empurrar o bebe, será que alguém empurra minha barriga?",-1,88,Topic embedding mais próximo,0.9340126514434814,88_barriga_distensão_falar_grande
+Como controlar a falta de equilíbrio durante a gravidez?,-1,40,Topic embedding mais próximo,0.9415804147720337,40_sentir_enjoos_enjoo_normal

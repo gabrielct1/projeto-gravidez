@@ -1,0 +1,158 @@
+Parent_ID,Parent_Name,Topics,Child_Left_ID,Child_Left_Name,Child_Right_ID,Child_Right_Name,Distance
+314,de_que_com_bebê_para,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157]",312,gravidez_de_maternidade_com_parto,313,leite_bebê_vai_pai_olívia,0.7640852843616486
+313,leite_bebê_vai_pai_olívia,"[4, 10, 11, 16, 17, 21, 28, 29, 32, 34, 37, 38, 39, 42, 46, 47, 48, 49, 55, 57, 64, 65, 69, 74, 75, 76, 77, 79, 80, 82, 86, 87, 90, 92, 95, 100, 101, 102, 104, 106, 112, 117, 118, 122, 123, 132, 133, 135, 140, 141, 153, 155]",309,vai_olívia_pai_nome_grávida,306,leite_materno_bebê_mamadeira_vacina,0.5845025817943186
+312,gravidez_de_maternidade_com_parto,"[0, 1, 2, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 18, 19, 20, 22, 23, 24, 25, 26, 27, 30, 31, 33, 35, 36, 40, 41, 43, 44, 45, 50, 51, 52, 53, 54, 56, 58, 59, 60, 61, 62, 63, 66, 67, 68, 70, 71, 72, 73, 78, 81, 83, 84, 85, 88, 89, 91, 93, 94, 96, 97, 98, 99, 103, 105, 107, 108, 109, 110, 111, 113, 114, 115, 116, 119, 120, 121, 124, 125, 126, 127, 128, 129, 130, 131, 134, 136, 137, 138, 139, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 154, 156, 157]",307,menstruação_progesterona_teste_anticoncepcional_atraso,311,maternidade_parto_semanas_salário_gestação,0.5563850694890331
+311,maternidade_parto_semanas_salário_gestação,"[0, 3, 5, 6, 8, 12, 13, 15, 19, 20, 22, 23, 24, 25, 27, 30, 31, 33, 36, 40, 41, 44, 45, 50, 51, 52, 53, 54, 56, 58, 60, 62, 63, 66, 67, 68, 70, 71, 72, 78, 83, 85, 88, 91, 93, 94, 96, 97, 98, 99, 103, 107, 109, 110, 111, 115, 121, 126, 127, 128, 129, 134, 139, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 156]",302,semanas_gravidez_gestação_hcg_beta,310,maternidade_salário_parto_auxílio_cesárea,0.39638981690124364
+310,maternidade_salário_parto_auxílio_cesárea,"[0, 3, 5, 13, 15, 19, 20, 22, 23, 24, 25, 27, 30, 31, 33, 36, 44, 45, 50, 51, 53, 54, 56, 63, 66, 67, 71, 72, 78, 83, 85, 88, 91, 93, 107, 110, 115, 126, 127, 128, 129, 142, 143, 144, 145, 146, 148, 149, 152]",308,parto_cesárea_bebê_que_normal,290,maternidade_salário_auxílio_direito_receber,0.37063915963313754
+309,vai_olívia_pai_nome_grávida,"[4, 11, 28, 34, 38, 42, 46, 48, 55, 57, 64, 65, 69, 74, 77, 79, 82, 86, 90, 92, 100, 101, 102, 112, 117, 122, 123, 132, 141]",224,olívia_janeiro_fevereiro_nascer_dia,304,pai_nome_grávida_filho_está,0.3480060124085083
+308,parto_cesárea_bebê_que_normal,"[3, 5, 13, 15, 19, 20, 22, 23, 24, 27, 30, 31, 33, 36, 44, 50, 51, 56, 63, 66, 67, 71, 72, 78, 83, 85, 88, 91, 93, 107, 110, 115, 126, 127, 128, 129, 142, 143, 144, 145, 146, 148, 149, 152]",300,bebê_aborto_gêmeos_gestação_ela,287,cesárea_parto_cesariana_pós_placenta,0.34610836206087064
+307,menstruação_progesterona_teste_anticoncepcional_atraso,"[1, 2, 7, 9, 14, 18, 26, 35, 43, 59, 61, 73, 81, 84, 89, 105, 108, 113, 114, 116, 119, 120, 124, 125, 130, 131, 136, 137, 138, 154, 157]",298,progesterona_via_útero_vaginal_histerectomia,303,menstruação_teste_atraso_anticoncepcional_menstrual,0.3375984488083135
+306,leite_materno_bebê_mamadeira_vacina,"[10, 16, 17, 21, 29, 32, 37, 39, 47, 49, 75, 76, 80, 87, 95, 104, 106, 118, 133, 135, 140, 153, 155]",299,vacina_bebê_mamadeira_criança_recém,305,leite_materno_produção_amamentação_bomba,0.30578852830613235
+305,leite_materno_produção_amamentação_bomba,"[17, 37, 39, 104, 118, 133, 140]",301,leite_materno_produção_bomba_amamentar,133,baleia_filhote_amamentação_baleias_água,0.23643485432630112
+304,pai_nome_grávida_filho_está,"[4, 11, 34, 38, 42, 46, 48, 55, 57, 64, 65, 69, 74, 77, 82, 86, 90, 92, 100, 102, 112, 117, 122, 123, 132, 141]",294,nome_pai_filho_vídeo_menina,288,giovanna_alparone_grávida_está_estrela,0.21930873670648493
+303,menstruação_teste_atraso_anticoncepcional_menstrual,"[1, 7, 9, 14, 18, 26, 35, 43, 59, 61, 81, 84, 105, 108, 113, 114, 116, 120, 125, 131, 136, 137, 138, 154, 157]",296,anticoncepcional_engravidar_pílula_diu_anos,281,teste_atraso_menstrual_negativo_nidação,0.21641383126318023
+302,semanas_gravidez_gestação_hcg_beta,"[6, 8, 12, 40, 41, 52, 58, 60, 62, 68, 70, 94, 96, 97, 98, 99, 103, 109, 111, 121, 134, 139, 147, 150, 151, 156]",284,eclâmpsia_pré_tomar_cálcio_ácido,291,semanas_hcg_beta_sentir_gravidez,0.20651076956075526
+301,leite_materno_produção_bomba_amamentar,"[17, 37, 39, 104, 118, 140]",254,bomba_bombinha_tirar_elétrica_leite,269,materno_leite_produção_amamentar_aumentar,0.19266476728598936
+300,bebê_aborto_gêmeos_gestação_ela,"[3, 5, 15, 20, 22, 23, 24, 30, 31, 33, 50, 51, 56, 66, 67, 85, 88, 93, 107, 110, 115, 127, 129, 142, 143, 148, 149]",297,aborto_você_ela_grávida_está,283,gêmeos_nascer_menino_bebê_menina,0.19247581587222368
+299,vacina_bebê_mamadeira_criança_recém,"[10, 16, 21, 29, 32, 47, 49, 75, 76, 80, 87, 95, 106, 135, 153, 155]",295,vacina_bronquiolite_vitamina_contra_conjuntivite,286,mamadeira_bebê_recém_criança_fórmula,0.18490560397667113
+298,progesterona_via_útero_vaginal_histerectomia,"[2, 73, 89, 119, 124, 130]",119,mounjaro_enquanto_amamentando_alguma_amamentava,292,progesterona_via_útero_vaginal_histerectomia,0.18154123048646958
+297,aborto_você_ela_grávida_está,"[3, 22, 23, 24, 30, 56, 67, 85, 93, 107, 110, 115, 127, 129, 142, 149]",293,grávida_você_ela_está_mala,271,aborto_embrião_vida_feto_abortar,0.17599730256852655
+296,anticoncepcional_engravidar_pílula_diu_anos,"[1, 9, 18, 26, 61, 84, 105, 108, 113, 114, 131, 136, 138, 157]",285,anticoncepcional_pílula_diu_tomar_seguinte,275,engravidar_anos_laqueadura_aos_fértil,0.17063302456443688
+295,vacina_bronquiolite_vitamina_contra_conjuntivite,"[16, 49, 95, 155]",257,conjuntivite_reflexo_olho_vermelho_olhos,278,vacina_bronquiolite_vitamina_contra_abrysvo,0.15266050952859522
+294,nome_pai_filho_vídeo_menina,"[4, 11, 42, 46, 48, 55, 64, 65, 77, 90, 92, 100, 112, 122, 132, 141]",289,vídeo_falsa_barriga_revelação_chá,273,nome_pai_filho_filhos_vocês,0.1468558438403727
+293,grávida_você_ela_está_mala,"[3, 22, 23, 56, 85, 93, 107, 110, 115, 127, 142, 149]",127,sonhar_significa_luz_dando_sonho,279,você_grávida_ela_está_mala,0.1443921217078445
+292,progesterona_via_útero_vaginal_histerectomia,"[2, 73, 89, 124, 130]",222,progesterona_via_oral_vaginal_reposição,251,histerectomia_mioma_miomas_cirurgia_retirada,0.14128719850332191
+291,semanas_hcg_beta_sentir_gravidez,"[6, 8, 12, 40, 60, 62, 68, 94, 97, 98, 109, 121, 139, 150, 151]",282,semanas_sentir_exercícios_normal_dor,255,hcg_beta_ultrassom_ultrassonografia_semanas,0.1410562973419691
+290,maternidade_salário_auxílio_direito_receber,"[0, 25, 45, 53, 54]",215,sus_plano_saúde_pelo_carência,261,maternidade_salário_auxílio_direito_contribuição,0.13560576075989567
+289,vídeo_falsa_barriga_revelação_chá,"[11, 48, 65, 77, 92, 100, 122, 132]",272,revelação_chá_menina_menino_sexuais,244,vídeo_falsa_barriga_mostrada_mencionada,0.13314389719681258
+288,giovanna_alparone_grávida_está_estrela,"[34, 38, 57, 69, 74, 82, 86, 102, 117, 123]",280,estrela_grávida_clarinha_mia_irmão,205,giovanna_alparone_giovana_grávida_pai,0.12659513467464842
+287,cesárea_parto_cesariana_pós_placenta,"[13, 19, 27, 36, 44, 63, 71, 72, 78, 83, 91, 126, 128, 144, 145, 146, 152]",277,placenta_parto_dilatação_dor_trabalho,263,cesárea_cesariana_pós_parto_após,0.12250361073058051
+286,mamadeira_bebê_recém_criança_fórmula,"[10, 21, 29, 32, 47, 75, 76, 80, 87, 106, 135, 153]",216,bebê_nasceu_oxigênio_criança_doença,260,mamadeira_bebê_recém_fórmula_fralda,0.12194623645229721
+285,anticoncepcional_pílula_diu_tomar_seguinte,"[1, 9, 18, 84, 114, 138]",270,menstruação_menopausa_menstruar_sangramento_menstrual,232,anticoncepcional_pílula_diu_seguinte_tomar,0.12122223477445472
+284,eclâmpsia_pré_tomar_cálcio_ácido,"[41, 52, 58, 70, 96, 99, 103, 111, 134, 147, 156]",256,cálcio_ácido_fólico_ferro_suplementação,274,eclâmpsia_pré_pressão_diabetes_gestantes,0.11864450740673696
+283,gêmeos_nascer_menino_bebê_menina,"[5, 15, 20, 31, 33, 50, 51, 66, 88, 143, 148]",258,gêmeos_menino_menina_sexo_nascer,264,dentro_nasceu_bolsa_peso_cordão,0.11036289023514062
+282,semanas_sentir_exercícios_normal_dor,"[6, 40, 60, 68, 94, 97, 109, 121, 139, 150, 151]",265,semanas_exercícios_dilatação_38_contrações,248,sentir_normal_barriga_dor_mexer,0.10878080781172199
+281,teste_atraso_menstrual_negativo_nidação,"[7, 14, 35, 43, 59, 81, 116, 120, 125, 137, 154]",226,atraso_menstrual_nidação_menstruação_sangramento,208,teste_positivo_farmácia_testes_resultado,0.10600460545992818
+280,estrela_grávida_clarinha_mia_irmão,"[34, 57, 69, 74, 86, 102, 117, 123]",74,estrela_filhotes_dos_pai_ficou,276,clarinha_mia_irmão_grávida_irmã,0.10175373601203823
+279,você_grávida_ela_está_mala,"[3, 22, 23, 56, 85, 93, 107, 110, 115, 142, 149]",230,mala_você_levar_seu_parto,253,grávida_ela_está_você_quantos,0.10158368438061183
+278,vacina_bronquiolite_vitamina_contra_abrysvo,"[16, 49]",16,vacina_bronquiolite_contra_abrysvo_beyfortus,49,vitamina_b12_gotas_ui_d3,0.09981626272201538
+277,placenta_parto_dilatação_dor_trabalho,"[27, 36, 44, 63, 91, 126, 144]",184,placenta_remoção_mão_remover_manual,212,parto_dilatação_dor_contrações_trabalho,0.09738165491843395
+276,clarinha_mia_irmão_grávida_irmã,"[34, 57, 69, 86, 102, 117, 123]",247,emily_katlen_grávida_ketlin_vick,267,mia_clarinha_irmão_irmã_gi,0.09723590787766036
+275,engravidar_anos_laqueadura_aos_fértil,"[26, 61, 105, 108, 113, 131, 136, 157]",239,engravidar_anos_aos_fértil_relação,220,laqueadura_trompas_engravidar_ectópica_tendo,0.09596520632402912
+274,eclâmpsia_pré_pressão_diabetes_gestantes,"[41, 52, 96, 99, 111, 134, 147]",249,gestantes_chá_durante_consumir_tomar,266,eclâmpsia_pré_pressão_diabetes_aas,0.09558819454869083
+273,nome_pai_filho_filhos_vocês,"[4, 42, 46, 55, 64, 90, 112, 141]",241,nome_pai_for_sara_tia,175,filho_filhos_ter_outro_vocês,0.09245781771949418
+272,revelação_chá_menina_menino_sexuais,"[11, 92, 100, 122, 132]",122,revelação_chá_descobrir_vai_sexo,250,menino_menina_sexuais_relações_você,0.08925733860852257
+271,aborto_embrião_vida_feto_abortar,"[24, 30, 67, 129]",24,embrião_feto_vida_considerado_vivo,246,aborto_abortar_estupro_alguém_retido,0.08769949263316121
+270,menstruação_menopausa_menstruar_sangramento_menstrual,"[9, 84, 114, 138]",114,urinária_pélvica_fisioterapia_vagina_incontinência,268,menstruação_menopausa_menstruar_sangramento_menstrual,0.0869281320678081
+269,materno_leite_produção_amamentar_aumentar,"[17, 37, 118, 140]",201,materno_leite_amamentar_produção_amamentação,140,domperidona_produção_aumentar_materno_leite,0.08539842695549839
+268,menstruação_menopausa_menstruar_sangramento_menstrual,"[9, 84, 138]",189,menstruação_sangramento_menstruar_dias_menstrual,84,menopausa_hormonal_anos_reposição_aos,0.08413553939668818
+267,mia_clarinha_irmão_irmã_gi,"[69, 86, 102, 117]",262,mia_clarinha_irmão_irmã_davi,117,gi_grávida_mostrar_zoro_está,0.08334018663023922
+266,eclâmpsia_pré_pressão_diabetes_aas,"[52, 99, 111, 147]",231,eclâmpsia_pressão_pré_aas_afetar,111,diabetes_gestacional_glicemia_jejum_relacionado,0.08119201406236948
+265,semanas_exercícios_dilatação_38_contrações,"[6, 97, 109, 151]",182,exercícios_preparar_exercício_esses_fazer,169,semanas_dilatação_38_contrações_39,0.08087440434865087
+264,dentro_nasceu_bolsa_peso_cordão,"[20, 50, 51, 66, 88, 143, 148]",236,dentro_bolsa_cordão_útero_umbilical,235,peso_kg_pesar_mensagem_levar,0.07998420449287427
+263,cesárea_cesariana_pós_parto_após,"[13, 19, 71, 72, 78, 83, 128, 145, 146, 152]",229,cesárea_cesariana_normal_após_parto,218,pós_taping_parto_cinta_após,0.07963671751761028
+262,mia_clarinha_irmão_irmã_davi,"[69, 86, 102]",86,mia_irmã_irmão_cuidar_reação,243,clarinha_davi_irmão_irmãozinho_mãe,0.07942979345541579
+261,maternidade_salário_auxílio_direito_contribuição,"[0, 25, 54]",217,maternidade_salário_auxílio_direito_inss,25,mei_auxílio_maternidade_direito_receber,0.07893929349321263
+260,mamadeira_bebê_recém_fórmula_fralda,"[10, 29, 32, 76, 80, 87, 106, 135, 153]",238,fralda_creche_dormir_banho_recém,259,mamadeira_fórmula_cabelo_leite_alimentar,0.07884564316187265
+259,mamadeira_fórmula_cabelo_leite_alimentar,"[10, 80, 106, 135, 153]",252,mamadeira_fórmula_cabelo_alimentar_leite,135,cocô_fezes_evacuar_verde_força,0.07671356982381282
+258,gêmeos_menino_menina_sexo_nascer,"[5, 15, 31, 33]",245,gêmeos_menino_menina_sexo_será,5,nascer_fevereiro_dia_vai_janeiro,0.0766927174832274
+257,conjuntivite_reflexo_olho_vermelho_olhos,"[95, 155]",155,reflexo_vermelho_olho_preto_aparecer,95,conjuntivite_usado_olhos_olho_tratar,0.07669198513031006
+256,cálcio_ácido_fólico_ferro_suplementação,"[58, 70, 103, 156]",156,ferro_suplementação_ferritina_endovenoso_deficiência,240,cálcio_ácido_fólico_suplemento_suplementação,0.0750323882029981
+255,hcg_beta_ultrassom_ultrassonografia_semanas,"[8, 12, 62, 98]",228,hcg_beta_ultrassom_ultrassonografia_natal,98,coração_ouvir_batimentos_doppler_fetal,0.07329922362828503
+254,bomba_bombinha_tirar_elétrica_leite,"[39, 104]",104,bombinha_elétrica_bomba_carregada_sucção,39,bomba_tirar_leite_elétrica_bombinha,0.07282590866088867
+253,grávida_ela_está_você_quantos,"[3, 22, 23, 93, 107, 110, 142]",188,quantos_meses_quantas_semanas_gestação,237,grávida_ela_está_você_pessoa,0.07119993201228864
+252,mamadeira_fórmula_cabelo_alimentar_leite,"[10, 80, 106, 153]",153,cabelo_crescer_materno_crescimento_queda,187,mamadeira_fórmula_alimentar_seringa_dar,0.06974201351614115
+251,histerectomia_mioma_miomas_cirurgia_retirada,"[73, 89]",73,histerectomia_retirada_cirurgia_útero_retirar,89,mioma_miomas_42_cirurgia_cm,0.06936073303222656
+250,menino_menina_sexuais_relações_você,"[11, 92, 100, 132]",242,menino_menina_sexuais_relações_sexual,200,isso_hospital_médico_tomou_você,0.06635361570037143
+249,gestantes_chá_durante_consumir_tomar,"[41, 96, 134]",96,estrias_óleo_melasma_cicatricure_prímula,204,chá_gestantes_consumir_tomar_café,0.06333898547577713
+248,sentir_normal_barriga_dor_mexer,"[40, 60, 68, 94, 121, 139, 150]",227,sentir_normal_barriga_mexer_lado,211,seios_sintomas_sintoma_sentiu_nos,0.06317724306978702
+247,emily_katlen_grávida_ketlin_vick,"[34, 57, 123]",34,katlen_ketlin_kat_ket_grávida,233,emily_vick_emilly_perdeu_kamylinha,0.06316928778896401
+246,aborto_abortar_estupro_alguém_retido,"[30, 67, 129]",67,aborto_retido_espontâneo_curetagem_boldo,203,aborto_estupro_abortar_alguém_vida,0.06268618756022547
+245,gêmeos_menino_menina_sexo_será,"[15, 31, 33]",15,gêmeos_trigêmeos_bebês_são_gemelar,195,menino_sexo_menina_será_saber,0.06229594711224775
+244,vídeo_falsa_barriga_mostrada_mencionada,"[48, 65, 77]",193,falsa_barriga_mostrada_mentira_parece,77,vídeo_mencionada_pessoa_mencionado_no,0.06187142762207514
+243,clarinha_davi_irmão_irmãozinho_mãe,"[69, 102]",102,clarinha_mãe_sabe_novo_esperando,69,davi_irmão_irmãozinho_davizinho_ganhar,0.05955374240875244
+242,menino_menina_sexuais_relações_sexual,"[100, 132]",100,sexuais_relações_sexual_relação_tiveram,132,menino_menina_acha_certeza_será,0.0595131516456604
+241,nome_pai_for_sara_tia,"[4, 42, 55, 90, 112, 141]",4,nome_for_nomes_vocês_chamar,234,pai_tia_sara_quem_mariana,0.05828974396096198
+240,cálcio_ácido_fólico_suplemento_suplementação,"[58, 70, 103]",103,ácido_fólico_metilfolato_ferroso_sulfato,199,cálcio_suplemento_magnésio_suplementação_vitamina,0.058248299596403236
+239,engravidar_anos_aos_fértil_relação,"[26, 105, 108, 113, 131, 136]",168,fértil_relação_período_engravidar_ovulação,223,engravidar_anos_aos_remédio_35,0.05781935890606718
+238,fralda_creche_dormir_banho_recém,"[29, 32, 76, 87]",210,creche_dormir_mamar_meses_criança,190,fralda_banho_recém_nascido_trocar,0.05769921250180463
+237,grávida_ela_está_você_pessoa,"[3, 22, 93, 107, 110]",173,grávida_ela_está_pessoa_engravidou,181,fez_engravidar_tentando_teste_você,0.05758370524805871
+236,dentro_bolsa_cordão_útero_umbilical,"[20, 51, 66, 88, 143]",198,dentro_bolsa_cordão_umbilical_útero,207,prematuro_nasceu_tudo_certo_parto,0.056481456318987766
+235,peso_kg_pesar_mensagem_levar,"[50, 148]",148,percentil_semanas_34_gestação_kg,50,peso_kg_mensagem_pesar_levar,0.056270480155944824
+234,pai_tia_sara_quem_mariana,"[42, 55, 90, 112, 141]",177,pai_quem_homem_onde_criança,219,tia_sara_mariana_pai_leia,0.05274184141281091
+233,emily_vick_emilly_perdeu_kamylinha,"[57, 123]",57,emily_vick_emilly_grávida_está,123,perdeu_kamylinha_engravidou_perder_camilinha,0.05250430107116699
+232,anticoncepcional_pílula_diu_seguinte_tomar,"[1, 18]",1,anticoncepcional_pílula_seguinte_tomar_cartela,18,diu_mirena_colocação_implanon_colocar,0.05138760805130005
+231,eclâmpsia_pressão_pré_aas_afetar,"[52, 99, 147]",213,aas_aspirina_descobrir_tomar_mg,52,eclâmpsia_pressão_pré_arterial_alta,0.049922435430834036
+230,mala_você_levar_seu_parto,"[56, 85, 115, 149]",56,mala_levar_roupa_roupas_tamanho,202,você_experiência_seu_parto_natural,0.04965951572403861
+229,cesárea_cesariana_normal_após_parto,"[13, 19, 72, 83, 145, 146, 152]",197,cesárea_cesariana_cicatriz_após_seroma,225,cesárea_cesariana_parto_normal_episiotomia,0.04947040203165463
+228,hcg_beta_ultrassom_ultrassonografia_natal,"[8, 12, 62]",8,hcg_beta_mui_resultado_ml,196,ultrassom_ultrassonografia_natal_saco_sangramento,0.04878292908935985
+227,sentir_normal_barriga_mexer_lado,"[40, 60, 68, 94, 121]",121,lado_dormir_esquerdo_cima_mal,214,sentir_normal_mexer_barriga_semanas,0.048122810708522
+226,atraso_menstrual_nidação_menstruação_sangramento,"[7, 14, 35, 43, 81, 116, 154]",14,nidação_sangramento_menstruação_esse_sido,221,atraso_menstrual_indicar_menstruação_teste,0.04724667598611389
+225,cesárea_cesariana_parto_normal_episiotomia,"[19, 72, 146]",164,cesárea_cesariana_parto_normal_indicações,146,episiotomia_laceração_evitar_humanizado_parto,0.046786307898724434
+224,olívia_janeiro_fevereiro_nascer_dia,"[28, 79, 101]",101,data_prevista_nascimento_olívia_janeiro,159,olívia_nascer_vai_dia_fevereiro,0.04648510029940324
+223,engravidar_anos_aos_remédio_35,"[26, 105, 131, 136]",170,engravidar_remédio_homens_existe_impedir,209,anos_engravidar_aos_35_44,0.045190807150117945
+222,progesterona_via_oral_vaginal_reposição,"[2, 124, 130]",2,progesterona_via_oral_vaginal_uso,185,útero_progesterona_ovários_histerectomia_usar,0.04513957003476003
+221,atraso_menstrual_indicar_menstruação_teste,"[7, 35, 43, 81, 116, 154]",186,atraso_menstrual_menstruação_estar_negativo,116,sintomas_esses_indicar_podem_descritos,0.04351519672642435
+220,laqueadura_trompas_engravidar_ectópica_tendo,"[61, 157]",157,trompas_ectópica_trompa_obstruídas_engravidar,61,laqueadura_tubária_feito_há_tendo,0.043360233306884766
+219,tia_sara_mariana_pai_leia,"[42, 90, 141]",191,tia_sara_mariana_grávida_bia,90,pai_neto_leia_luccas_lucas,0.04204696575189458
+218,pós_taping_parto_cinta_após,"[71, 78, 128]",183,pós_parto_após_inchada_hemorragia,78,pós_taping_cinta_calcinha_usar,0.04126651157855559
+217,maternidade_salário_auxílio_direito_inss,"[0, 54]",54,família_bolsa_recebe_vacinar_benefício,0,maternidade_salário_auxílio_direito_inss,0.041248857975006104
+216,bebê_nasceu_oxigênio_criança_doença,"[21, 47, 75]",47,oxigênio_respirar_procedimento_luvas_rápido,171,nasceu_doença_bebê_criança_bem,0.041233580474459866
+215,sus_plano_saúde_pelo_carência,"[45, 53]",45,sus_pelo_natal_pré_realizado,53,plano_saúde_carência_convênio_reembolso,0.041040241718292236
+214,sentir_normal_mexer_barriga_semanas,"[40, 60, 68, 94]",178,sentir_normal_dor_barriga_gravidez,94,mexer_sentir_movimentos_17_semanas,0.03973768310078306
+213,aas_aspirina_descobrir_tomar_mg,"[99, 147]",99,descobrir_remédios_prejudicar_tomar_formação,147,aas_aspirina_eclâmpsia_pré_trimestre,0.037928223609924316
+212,parto_dilatação_dor_contrações_trabalho,"[27, 36, 63, 91, 126]",206,parto_dilatação_dor_contrações_trabalho,91,indução_shake_indutor_induzir_receita,0.036685640705620186
+211,seios_sintomas_sintoma_sentiu_nos,"[139, 150]",150,sintomas_sintoma_sentiu_quais_mesmos,139,seios_nos_dor_sentiu_sentir,0.0362473726272583
+210,creche_dormir_mamar_meses_criança,"[29, 32]",32,creche_criança_meses_palavras_ano,29,dormir_mamar_noite_peito_sono,0.03562110662460327
+209,anos_engravidar_aos_35_44,"[26, 136]",26,anos_aos_engravidar_35_44,136,anos_16_adolescente_15_pessoa,0.035616278648376465
+208,teste_positivo_farmácia_testes_resultado,"[59, 120, 125, 137]",161,teste_positivo_farmácia_negativo_resultado,194,linha_teste_urina_fraca_testes,0.03530462412735561
+207,prematuro_nasceu_tudo_certo_parto,"[51, 66, 88]",192,tudo_certo_deu_parto_barriga,66,prematuro_nasceu_quantas_semanas_nasce,0.03488804282218718
+206,parto_dilatação_dor_contrações_trabalho,"[27, 36, 63, 126]",63,dilatação_cm_colo_trabalho_centímetros,176,parto_dor_contrações_analgesia_durante,0.034820750209110685
+205,giovanna_alparone_giovana_grávida_pai,"[38, 82]",82,giovana_giovanna_pai_grávida_namorado,38,alparone_giovanna_grávida_está_quem,0.03441286087036133
+204,chá_gestantes_consumir_tomar_café,"[41, 134]",41,chá_gestantes_tomar_consumir_café,134,alimentação_fome_alimentos_durante_dieta,0.03374755382537842
+203,aborto_estupro_abortar_alguém_vida,"[30, 129]",30,aborto_abortar_alguém_vida_pessoas,129,estupro_caso_estuprada_cuidar_permitido,0.033405303955078125
+202,você_experiência_seu_parto_natural,"[85, 115, 149]",167,experiência_parto_natural_você_passar,85,seu_muda_luz_você_estão,0.033220869953046225
+201,materno_leite_amamentar_produção_amamentação,"[17, 37, 118]",118,materno_leite_oferecer_paterno_geladeira,180,amamentar_produção_amamentação_materno_leite,0.03313749006645389
+200,isso_hospital_médico_tomou_você,"[11, 92]",11,isso_nesse_caso_luvas_você,92,hospital_médico_tomou_consulta_medicamento,0.032853126525878906
+199,cálcio_suplemento_magnésio_suplementação_vitamina,"[58, 70]",70,suplemento_vitamina_suplementos_vitaminas_tomar,58,cálcio_magnésio_suplementação_tomar_deve,0.0326763391494751
+198,dentro_bolsa_cordão_umbilical_útero,"[20, 143]",143,bolsa_estourou_contrações_estourar_romper,20,dentro_cordão_umbilical_útero_respira,0.03240859508514404
+197,cesárea_cesariana_cicatriz_após_seroma,"[13, 83, 145, 152]",162,cesárea_cicatriz_após_cesariana_seroma,179,cesárea_dói_cesariana_anestesia_corte,0.03206402899280063
+196,ultrassom_ultrassonografia_natal_saco_sangramento,"[12, 62]",12,ultrassom_natal_ultrassonografia_saco_pré,62,sangramento_marrom_borra_início_café,0.031725525856018066
+195,menino_sexo_menina_será_saber,"[31, 33]",33,menina_menino_será_tabela_bebê,31,sexo_menino_saber_menina_descobrir,0.03132462501525879
+194,linha_teste_urina_fraca_testes,"[120, 125]",125,urina_xixi_colocado_teste_caseiro,120,linha_teste_fraca_farmácia_linhas,0.030983567237854004
+193,falsa_barriga_mostrada_mentira_parece,"[48, 65]",48,falsa_barriga_mostrada_parece_mentira,65,barriga_falsa_mostrada_mentira_tamanho,0.030553460121154785
+192,tudo_certo_deu_parto_barriga,"[51, 88]",88,barriga_distensão_falar_grande_bebê,51,tudo_certo_parto_deu_bem,0.0304718017578125
+191,tia_sara_mariana_grávida_bia,"[42, 141]",141,outro_ela_vem_filhos_jovem,42,tia_sara_mariana_grávida_bia,0.03035295009613037
+190,fralda_banho_recém_nascido_trocar,"[76, 87]",76,fralda_trocar_xixi_fraldas_cocô,87,banho_recém_nascido_água_vernix,0.029901623725891113
+189,menstruação_sangramento_menstruar_dias_menstrual,"[9, 138]",138,sangramento_vermelho_vivo_apareceu_relação,9,menstruação_menstruar_menstrual_descer_desceu,0.028662681579589844
+188,quantos_meses_quantas_semanas_gestação,"[23, 142]",23,quantos_meses_semanas_idade_última,142,quantas_quantos_meses_você_gestação,0.028504014015197754
+187,mamadeira_fórmula_alimentar_seringa_dar,"[10, 80, 106]",172,mamadeira_fórmula_seringa_leite_dar,106,comer_suco_comida_alimentar_introdução,0.02850279606583206
+186,atraso_menstrual_menstruação_estar_negativo,"[7, 35, 43, 81, 154]",154,teste_devo_fazer_atrasar_repetir,174,atraso_menstrual_estar_menstruação_negativo,0.028252032773229227
+185,útero_progesterona_ovários_histerectomia_usar,"[124, 130]",130,útero_ovários_progesterona_usar_tem,124,histerectomia_total_progesterona_fez_repor,0.027164220809936523
+184,placenta_remoção_mão_remover_manual,"[44, 144]",144,placenta_descolamento_acontece_baixa_fica,44,placenta_remoção_mão_remover_manual,0.02671152353286743
+183,pós_parto_após_inchada_hemorragia,"[71, 128]",128,pós_inchada_diástase_barriga_desinchar,71,pós_após_hemorragia_parto_hemorroidas,0.026367783546447754
+182,exercícios_preparar_exercício_esses_fazer,"[97, 109]",97,exercícios_exercício_começar_fazer_correr,109,exercícios_preparar_preparação_feitos_esses,0.02606886625289917
+181,fez_engravidar_tentando_teste_você,"[93, 107]",107,engravidar_tentando_vocês_tentar_tentativas,93,fez_teste_confirmar_exame_você,0.02580702304840088
+180,amamentar_produção_amamentação_materno_leite,"[17, 37]",37,produção_materno_leite_aumentar_posso,17,amamentar_amamentação_peito_bico_seio,0.02550351619720459
+179,cesárea_dói_cesariana_anestesia_corte,"[83, 145]",83,cesárea_corte_camadas_realizar_mãos,145,dói_anestesia_cesariana_cesáreas_sente,0.025217413902282715
+178,sentir_normal_dor_barriga_gravidez,"[40, 60, 68]",60,barriga_kg_dura_crescer_endurecer,166,sentir_dor_normal_muita_urinar,0.024583778342427264
+177,pai_quem_homem_onde_criança,"[55, 112]",112,pai_quem_estiver_mencionada_nessa,55,pai_homem_quem_onde_filho,0.024410367012023926
+176,parto_dor_contrações_analgesia_durante,"[27, 36, 126]",126,contrações_dilatação_doem_dor_parto,163,parto_dor_analgesia_mulheres_durante,0.02374594646480058
+175,filho_filhos_ter_outro_vocês,"[46, 64]",46,filho_outro_vocês_vão_ter,64,filhos_condições_mundo_filho_criar,0.023588359355926514
+174,atraso_menstrual_estar_menstruação_negativo,"[7, 35, 43, 81]",165,atraso_menstrual_estar_negativo_menstruação,81,rosado_sangramento_marrom_pequeno_corrimento,0.023323967370921343
+173,grávida_ela_está_pessoa_engravidou,"[3, 22, 110]",110,contexto_gestação_segunda_evoluiu_toda,160,grávida_ela_está_pessoa_engravidou,0.023081483914071943
+172,mamadeira_fórmula_seringa_leite_dar,"[10, 80]",10,mamadeira_seringa_alimentar_dar_sugar,80,fórmula_leite_alergia_ml_nan,0.022668123245239258
+171,nasceu_doença_bebê_criança_bem,"[21, 75]",21,doença_rosto_tem_bochechinha_quantos,75,nasceu_matar_bem_criança_aconteceu,0.022649109363555908
+170,engravidar_remédio_homens_existe_impedir,"[105, 131]",131,homens_engravidar_faz_sabem_ovodoação,105,remédio_engravidar_existe_impedir_tentando,0.022428393363952637
+169,semanas_dilatação_38_contrações_39,"[6, 151]",151,semanas_39_entrar_40_induzir,6,dilatação_semanas_38_contrações_tampão,0.022311091423034668
+168,fértil_relação_período_engravidar_ovulação,"[108, 113]",108,fértil_relação_período_ovulação_engravidar,113,ejaculação_calcinha_penetração_sêmen_proteção,0.021475672721862793
+167,experiência_parto_natural_você_passar,"[115, 149]",149,pós_disso_normais_partos_sentiu,115,experiência_natural_parto_você_pretende,0.020793795585632324
+166,sentir_dor_normal_muita_urinar,"[40, 68]",40,sentir_enjoos_enjoo_normal_início,68,sentir_urinar_dor_muita_normal,0.020023643970489502
+165,atraso_menstrual_estar_negativo_menstruação,"[7, 35, 43]",158,atraso_negativo_menstrual_estar_menstruação,7,podem_cólicas_seios_sinais_dor,0.01908555308127821
+164,cesárea_cesariana_parto_normal_indicações,"[19, 72]",72,cesárea_próxima_cesáreas_tentar_normal,19,cesárea_cesariana_indicações_parto_cesáreo,0.018918395042419434
+163,parto_dor_analgesia_mulheres_durante,"[27, 36]",36,dor_analgesia_parto_mulheres_epidural,27,parto_posição_durante_deitada_parir,0.018616676330566406
+162,cesárea_cicatriz_após_cesariana_seroma,"[13, 152]",13,cesárea_cicatriz_seroma_após_líquido,152,recuperação_cesariana_cesárea_após_pós,0.01585710048675537
+161,teste_positivo_farmácia_negativo_resultado,"[59, 137]",137,farmácia_negativo_testes_teste_sangue,59,teste_positivo_deu_resultado_falso,0.015760838985443115
+160,grávida_ela_está_pessoa_engravidou,"[3, 22]",22,grávida_você_está_verdade_estava,3,ela_grávida_está_pessoa_mencionada,0.012634515762329102
+159,olívia_nascer_vai_dia_fevereiro,"[28, 79]",79,olívia_janeiro_fevereiro_nascer_dia,28,olívia_nascer_vai_olivia_dia,0.012339591979980469
+158,atraso_negativo_menstrual_estar_menstruação,"[35, 43]",43,negativo_atraso_menstrual_teste_negativos,35,estar_menstruação_menstruado_tendo_ausência,0.009773015975952148
