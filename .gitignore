@@ -9,3 +9,5 @@ server/
 results/**/*.pkl
 results/**/*.npy
 results/**/cache/
+
+topic_analysis_gravidez_results_two_steps_api/
