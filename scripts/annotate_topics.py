@@ -122,7 +122,7 @@ def next_pending(data, current=-1, skipped=None):
     return None
 
 
-def show_cluster(row, completed, total, output):
+def show_cluster(row, completed, total, output, adjudication=False):
     output("\n" + "=" * 88)
     output(f"Tópico {row.topic_id} | tamanho {row.topic_size} | concluídos {completed}/{total}")
     output(f"Palavras principais: {row.top_words}")
@@ -132,9 +132,10 @@ def show_cluster(row, completed, total, output):
     output("\nPerguntas de borda")
     for i in range(1, 6):
         output(f"  B{i}. {getattr(row, f'boundary_example_{i}')}")
-    output("\nSugestões de nome")
-    for i in range(1, 4):
-        output(f"  {i}. {getattr(row, f'suggestion_{i}')}")
+    if not adjudication:
+        output("\nSugestões de nome")
+        for i in range(1, 4):
+            output(f"  {i}. {getattr(row, f'suggestion_{i}')}")
     if row.relevance:
         chosen = row.manual_name if row.selected_name_option == "manual" else getattr(row, f"suggestion_{row.selected_name_option}", "")
         output(f"\nAnotação atual: {row.relevance}" + (f" | nome: {chosen}" if chosen else ""))
@@ -180,7 +181,72 @@ def annotate_relevant(data, index, annotator_id, personal_path, input_fn, output
     return "saved"
 
 
-def run_session(data, personal_path, annotator_id, input_fn=input, output=print):
+def adjudication_name_candidates(row):
+    candidates = []
+    for prefix in ("victoria", "gabriel"):
+        if str(row.get(f"{prefix}_relevance", "")).strip().lower() != "relevante":
+            continue
+        name = str(row.get(f"{prefix}_selected_name", "")).strip()
+        option = str(row.get(f"{prefix}_name_option", "")).strip().lower()
+        if name and name not in [candidate[0] for candidate in candidates]:
+            candidates.append((name, option))
+    return candidates
+
+
+def annotate_adjudication_name(data, index, annotator_id, personal_path, input_fn, output):
+    candidates = adjudication_name_candidates(data.iloc[index])
+    output("\nNomes escolhidos pelos anotadores anteriores (sem identificar o anotador)")
+    for number, (name, _) in enumerate(candidates, 1):
+        output(f"  {number}. {name}")
+    allowed = "/".join(str(i) for i in range(1, len(candidates) + 1))
+    while True:
+        choice = input_fn(f"Nome [{allowed}, n=novo, o=observação, b=voltar, q=sair]: ").strip().lower()
+        if choice.isdigit() and 1 <= int(choice) <= len(candidates):
+            name, original_option = candidates[int(choice) - 1]
+            if original_option in {"1", "2", "3"}:
+                data.at[index, "selected_name_option"] = original_option
+                data.at[index, "manual_name"] = ""
+            else:
+                data.at[index, "selected_name_option"] = "manual"
+                data.at[index, "manual_name"] = name
+            break
+        if choice == "n":
+            name = input_fn("Novo nome: ").strip()
+            if not name:
+                output("O nome não pode ficar vazio.")
+                continue
+            data.at[index, "selected_name_option"] = "manual"
+            data.at[index, "manual_name"] = name
+            break
+        if choice == "o":
+            edit_note(data, index, annotator_id, personal_path, input_fn, output)
+            continue
+        if choice in {"b", "q"}:
+            return choice
+        output("Opção inválida.")
+    data.at[index, "relevance"] = "relevante"
+    data.at[index, "annotator_id"] = annotator_id
+    data.at[index, "annotated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
+    atomic_save(data, personal_path)
+    return "saved"
+
+
+def validate_adjudication_structure(data):
+    required = {
+        "disagreement_type", "victoria_relevance", "victoria_name_option", "victoria_selected_name",
+        "gabriel_relevance", "gabriel_name_option", "gabriel_selected_name",
+    }
+    missing = sorted(required - set(data.columns))
+    if missing:
+        raise ValueError(f"O CSV de adjudicação não contém as colunas necessárias: {missing}")
+    invalid = sorted(set(data["disagreement_type"]) - {"name", "relevance"})
+    if invalid:
+        raise ValueError(f"Tipos de divergência inválidos: {invalid}")
+
+
+def run_session(data, personal_path, annotator_id, input_fn=input, output=print, adjudication=False):
+    if adjudication:
+        validate_adjudication_structure(data)
     last = last_annotation(data)
     if last is None:
         output("Nenhuma anotação anterior encontrada.")
@@ -199,7 +265,29 @@ def run_session(data, personal_path, annotator_id, input_fn=input, output=print)
     skipped = set()
     while current is not None:
         completed = int(data["relevance"].ne("").sum())
-        show_cluster(data.iloc[current], completed, len(data), output)
+        row = data.iloc[current]
+        show_cluster(row, completed, len(data), output, adjudication)
+        if adjudication and row.disagreement_type == "name":
+            output("\nOs dois anotadores consideraram este tópico relevante, mas escolheram nomes diferentes.")
+            result = annotate_adjudication_name(data, current, annotator_id, personal_path, input_fn, output)
+            if result == "q":
+                atomic_save(data, personal_path)
+                output(f"Progresso salvo em {personal_path}")
+                return
+            if result == "b":
+                if history:
+                    current = history.pop()
+                else:
+                    output("Não há tópico anterior nesta sessão.")
+                continue
+            history.append(current)
+            following = next_pending(data, current, skipped)
+            if following is None and data["relevance"].eq("").any():
+                skipped.clear()
+                following = next_pending(data, current)
+                output("Os tópicos restantes haviam sido pulados; retornando a eles.")
+            current = following
+            continue
         choice = input_fn("Relevância [1=relevante, 0=irrelevante, s=pular, b=voltar, o=observação, q=sair]: ").strip().lower()
         if choice == "q":
             atomic_save(data, personal_path)
@@ -224,7 +312,10 @@ def run_session(data, personal_path, annotator_id, input_fn=input, output=print)
             data.at[current, "annotated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
             atomic_save(data, personal_path)
         elif choice == "1":
-            result = annotate_relevant(data, current, annotator_id, personal_path, input_fn, output)
+            if adjudication:
+                result = annotate_adjudication_name(data, current, annotator_id, personal_path, input_fn, output)
+            else:
+                result = annotate_relevant(data, current, annotator_id, personal_path, input_fn, output)
             if result == "q":
                 atomic_save(data, personal_path)
                 output(f"Progresso salvo em {personal_path}")
@@ -258,6 +349,7 @@ def parse_args():
     parser.add_argument("--annotator-id", help="ID do anotador; se omitido, será solicitado")
     parser.add_argument("--base-csv", type=Path, default=DEFAULT_BASE_CSV)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--adjudication", action="store_true", help="Mostra somente as decisões conflitantes anteriores")
     return parser.parse_args()
 
 
@@ -268,7 +360,7 @@ def main():
     personal_path = args.output_dir / f"topic_annotation_{annotator_id}.csv"
     with annotator_lock(args.output_dir, annotator_id):
         data = load_or_create(args.base_csv, personal_path, annotator_id)
-        run_session(data, personal_path, annotator_id)
+        run_session(data, personal_path, annotator_id, adjudication=args.adjudication)
 
 
 if __name__ == "__main__":

@@ -11,3 +11,5 @@ results/**/*.npy
 results/**/cache/
 
 topic_analysis_gravidez_results_two_steps_api/
+__pycache__/
+*.py[cod]
