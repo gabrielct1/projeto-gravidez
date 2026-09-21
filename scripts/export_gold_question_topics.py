@@ -8,7 +8,8 @@ import pandas as pd
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 RESULTS_DIR = PROJECT_DIR / "results/hierarchical_topics/nn30_mcs20_seed2024"
-DEFAULT_OUTPUT = PROJECT_DIR / "results/gold_questions/gold_questions_with_relevant_topics.csv"
+DEFAULT_OUTPUT = PROJECT_DIR / "results/gold_questions/gold_questions_topic.csv"
+DEFAULT_ORIGINAL_OUTPUT = PROJECT_DIR / "results/gold_questions/original_questions_topic.csv"
 
 
 def read_csv(path):
@@ -76,6 +77,8 @@ def export(args):
     relevant = topics.loc[topics["relevance"].eq("relevante")].copy()
     if relevant.empty:
         raise ValueError("Nenhum tópico foi mantido como relevante.")
+    relevant["ordinal_topic_id"] = np.arange(1, len(relevant) + 1, dtype=int)
+    ordinal_ids = relevant.set_index("topic_id")["ordinal_topic_id"]
 
     unique_questions, first_indices = load_unique_questions(args.questions)
     assignments = read_csv(args.assignments)
@@ -115,7 +118,7 @@ def export(args):
     chosen_ids = relevant_ids[nearest]
     output = pd.DataFrame({
         "pergunta_padrao_ouro": gold_questions,
-        "topic_id": chosen_ids.astype(int),
+        "topic_id": [ordinal_ids.at[topic_id] for topic_id in chosen_ids],
         "topic_name": [names.at[topic_id] for topic_id in chosen_ids],
         "central_example_1": [central_examples[topic_id][0] for topic_id in chosen_ids],
         "central_example_2": [central_examples[topic_id][1] for topic_id in chosen_ids],
@@ -123,8 +126,20 @@ def export(args):
     })
     args.output.parent.mkdir(parents=True, exist_ok=True)
     output.to_csv(args.output, index=False)
+
+    occurrences = read_csv(args.occurrences)
+    occurrences["fine_topic_id"] = occurrences["fine_topic_id"].astype(int)
+    occurrences = occurrences.loc[occurrences["fine_topic_id"].isin(relevant_ids)].copy()
+    original_output = pd.DataFrame({
+        "pergunta_original": occurrences["perguntas"],
+        "topic_id": occurrences["fine_topic_id"].map(ordinal_ids).astype(int),
+        "topic_name": occurrences["fine_topic_id"].map(names),
+    })
+    args.original_output.parent.mkdir(parents=True, exist_ok=True)
+    original_output.to_csv(args.original_output, index=False)
     print(f"{len(output)} perguntas padrão-ouro salvas em {args.output}")
     print(f"{output['topic_id'].nunique()} tópicos relevantes receberam pelo menos uma pergunta")
+    print(f"{len(original_output)} ocorrências de perguntas originais salvas em {args.original_output}")
 
 
 def parse_args():
@@ -134,10 +149,12 @@ def parse_args():
     parser.add_argument("--embeddings", type=Path, default=PROJECT_DIR / "results/hierarchical_topics/embeddings_all_questions_google_embeddinggemma-300m.npy")
     parser.add_argument("--gold-embeddings", type=Path, default=PROJECT_DIR / "results/hierarchical_topics/embeddings_gold_clustering.npy")
     parser.add_argument("--assignments", type=Path, default=RESULTS_DIR / "unique_questions_with_fine_topics.csv")
+    parser.add_argument("--occurrences", type=Path, default=RESULTS_DIR / "all_question_occurrences_with_topics.csv")
     parser.add_argument("--victoria", type=Path, default=PROJECT_DIR / "results/manual_annotation/annotators/topic_annotation_victoria.csv")
     parser.add_argument("--gabriel", type=Path, default=PROJECT_DIR / "results/manual_annotation/annotators/topic_annotation_Gabriel.csv")
     parser.add_argument("--adjudication", type=Path, default=PROJECT_DIR / "results/annotation_agreement/annotators/topic_annotation_terceiro_anotador.csv")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--original-output", type=Path, default=DEFAULT_ORIGINAL_OUTPUT)
     return parser.parse_args()
 
 
