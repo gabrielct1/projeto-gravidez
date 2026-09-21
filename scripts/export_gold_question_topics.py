@@ -131,6 +131,7 @@ def export(args):
     occurrences["fine_topic_id"] = occurrences["fine_topic_id"].astype(int)
     occurrences = occurrences.loc[occurrences["fine_topic_id"].isin(relevant_ids)].copy()
     original_output = pd.DataFrame({
+        "comment_id": occurrences["comment_id"],
         "pergunta_original": occurrences["perguntas"],
         "topic_id": occurrences["fine_topic_id"].map(ordinal_ids).astype(int),
         "topic_name": occurrences["fine_topic_id"].map(names),
